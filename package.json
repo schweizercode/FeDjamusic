@@ -25,6 +25,8 @@
     "gatsby-plugin-sharp": "^3.1.2",
     "gatsby-remark-images": "^4.1.1",
     "gatsby-source-filesystem": "^3.1.0",
+    "gatsby-source-vimeo": "^1.1.8",
+    "gatsby-source-vimeo-all": "0.0.18",
     "gatsby-transformer-remark": "^3.1.0",
     "gatsby-transformer-sharp": "^3.1.0",
     "node-sass": "^4.13.1",

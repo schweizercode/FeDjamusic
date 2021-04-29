@@ -1,0 +1,22 @@
+---
+anchor: "Services"
+header: "Services"
+subheader: ""
+services: [
+  {
+    iconName: "ShoppingCartIcon",
+    header: "Dj",
+    content: " schweezzy knows how to bring up the energy of any crowd and unite a room with his infectious mix of music tailored to any event."
+  },
+  {
+    iconName: "LaptopIcon",
+    header: "Music Production",
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  },
+  {
+    iconName: "LockIcon",
+    header: "Songwriting",
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  }
+]
+---
