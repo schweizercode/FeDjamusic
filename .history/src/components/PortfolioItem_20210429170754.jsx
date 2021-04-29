@@ -53,13 +53,13 @@ const PortfolioItem = ({
   return (
     <>
       <Col md={4} sm={6} className="portfolio-item">
-        <a
+        {/* <a
           role="button"
           tabIndex={-1}
           className="portfolio-link"
           data-toggle="modal"
           onClick={handleShowDetail}
-        >
+        > */}
           {/* <Image
             className="img-fluid"
             fileName={imageFileName}
@@ -67,7 +67,7 @@ const PortfolioItem = ({
           /> */}
       
           <iframe src={`https://player.vimeo.com/video/${videoUrl}`}
-            width="349" height="620" frameBorder="5"
+            width="349" height="620" frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture" allowFullScreen
           title={header}/>
 

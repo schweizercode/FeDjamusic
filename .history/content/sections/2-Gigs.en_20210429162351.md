@@ -1,7 +1,7 @@
 ---
 anchor: "Gigs"
 header: "Gigs"
-subheader: "Check out some live Performaces :)"
+subheader: "Lorem ipsum dolor sit amet consectetur."
 gigs: [
   {
     videoUrl: "540607020",
@@ -29,16 +29,16 @@ gigs: [
   },
   {
     videoUrl: "543172227",
-    # imageFileNameDetail: "portfolio/04-full.jpg",
-    header: "18th BirthdayParty",
-    subheader: "Australia",
+    imageFileNameDetail: "portfolio/04-full.jpg",
+    header: "crazy 18th BirthdayParty",
+    subheader: "Hamburg, Germany",
     content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
     extraInfo: ["Date: January 2017", "Client: Lines", "Category: Branding"]
   },
   {
-    videoUrl: "543171751",
-    # imageFileNameDetail: "portfolio/05-full.jpg",
-    header: "Another Boatparty",
+    videoUrl: "portfolio/05-thumbnail.jpg",
+    imageFileNameDetail: "portfolio/05-full.jpg",
+    header: "Christmas Party",
     subheader: "Sydney, Australia",
     content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
     extraInfo: ["Date: January 2017", "Client: Southwest", "Category: Website Design"]

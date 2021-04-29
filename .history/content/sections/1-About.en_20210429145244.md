@@ -12,11 +12,11 @@ teamMember: [
     imageFileName: "djpic.jpg",
     header: "Felix Schweizer",
     subheader: "DJ & Music Producer",
-    # social: {
-    #   twitter: "#",
-    #   facebook: "#",
-    #   linkedin: "#"
-    # }
+    social: {
+      twitter: "#",
+      facebook: "#",
+      linkedin: "#"
+    }
   },
 
 ]

@@ -67,17 +67,10 @@ const PortfolioItem = ({
           /> */}
       
           <iframe src={`https://player.vimeo.com/video/${videoUrl}`}
-            width="349" height="620" frameBorder="5"
+            width="349" height="620" frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture" allowFullScreen
           title={header}/>
 
-          
-          {/* <div className="portfolio-hover">
-            <div className="portfolio-hover-content">
-              <Icon iconName="PlusIcon" size="2x" />
-            </div>
-          </div> */}
-        </a>
         <div className="portfolio-caption">
           <h4>{header}</h4>
           {subheader ? <p className="text-muted">{subheader}</p> : null}
