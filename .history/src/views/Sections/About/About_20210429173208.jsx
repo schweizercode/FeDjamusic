@@ -18,18 +18,11 @@ const About = ({ className, frontmatter }) => {
   const { anchor, header: rootHeader, subheader: rootSubHeader, teamMember } = frontmatter;
 
   return (
-    <PageSection
-      className={className}
-      id={anchor}>
-      
+    <PageSection className={className} id={anchor}>
       <Row>
-        <SectionHeader
-          header={rootHeader}
-          subheader={rootSubHeader} />
+        <SectionHeader header={rootHeader} subheader={rootSubHeader} />
       </Row>
-
       <Row>
-        
         <Col lg={4}>
           {teamMember.map((element => 
     

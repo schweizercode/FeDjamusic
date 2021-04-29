@@ -1,7 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 import Image from "components/Image";
 import * as SocialIcons from "components/SocialIcons";
+
 import "./TeamMember.scss";
 
 const TeamMember = ({
@@ -21,7 +23,7 @@ const TeamMember = ({
         fileName={imageFileName}
         alt={imageAlt || header || subheader}
       />
-      <h4>{header}</h4>
+      {/* <h4>{header}</h4> */}
       <p className="text-muted">{subheader}</p>
       
     </div>

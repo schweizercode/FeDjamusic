@@ -1,7 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 import Image from "components/Image";
 import * as SocialIcons from "components/SocialIcons";
+
 import "./TeamMember.scss";
 
 const TeamMember = ({
@@ -33,13 +35,13 @@ TeamMember.propTypes = {
   imageAlt: PropTypes.string,
   header: PropTypes.string,
   subheader: PropTypes.string,
-  social: PropTypes.shape({
-    twitter: PropTypes.string,
-    facebook: PropTypes.string,
-    linkedin: PropTypes.string,
-    github: PropTypes.string,
-    medium: PropTypes.string,
-  }),
+  // social: PropTypes.shape({
+  //   twitter: PropTypes.string,
+  //   facebook: PropTypes.string,
+  //   linkedin: PropTypes.string,
+  //   github: PropTypes.string,
+  //   medium: PropTypes.string,
+  // }),
 };
 
 TeamMember.defaultProps = {

@@ -21,15 +21,12 @@ const About = ({ className, frontmatter }) => {
     <PageSection
       className={className}
       id={anchor}>
-      
       <Row>
         <SectionHeader
           header={rootHeader}
           subheader={rootSubHeader} />
       </Row>
-
       <Row>
-        
         <Col lg={4}>
           {teamMember.map((element => 
     

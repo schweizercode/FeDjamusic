@@ -67,8 +67,9 @@ const PortfolioItem = ({
           /> */}
       
           <iframe src={`https://player.vimeo.com/video/${videoUrl}`}
-            width="349"
-            height="620"
+            // width="349"
+            // height="620"
+            md={4} sm={6}
             frameBorder="5"
             allow="autoplay; fullscreen; picture-in-picture" allowFullScreen
           title={header}/>

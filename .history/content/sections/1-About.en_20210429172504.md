@@ -12,6 +12,11 @@ teamMember: [
     imageFileName: "djpic.jpg",
     header: "FeDJa",
     subheader: "DJ & Music Producer",
+    # social: {
+    #   twitter: "#",
+    #   facebook: "#",
+    #   linkedin: "#"
+    # }
   },
 
 ]
