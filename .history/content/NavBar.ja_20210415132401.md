@@ -1,4 +1,0 @@
----
-brand: "schweezzy"
-menuText: "schweezzy "
----

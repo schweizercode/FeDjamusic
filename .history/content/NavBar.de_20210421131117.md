@@ -1,4 +1,0 @@
----
-brand: "FEDJA"
-menuText: "Menu "
----
