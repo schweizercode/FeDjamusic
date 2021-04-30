@@ -20,9 +20,9 @@ gigs: [
     extraInfo: ["Date: January 2017", "Client: Explorer", "Category: Graphic Design"]
   },
   {
-    videoUrl: "542567505",
+    videoUrl: "543600674",
     imageFileNameDetail: "portfolio/03-full.jpg",
-    header: "Yacht Club Party",
+    header: "MercedesBenz Party",
     subheader: "Sydney Australia",
     content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
     extraInfo: ["Date: January 2017", "Client: Finish", "Category: Identity"]
