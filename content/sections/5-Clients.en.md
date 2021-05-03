@@ -3,24 +3,25 @@ anchor: "Clients"
 header: "Clients"
 clients: [
   {
-    imageFileName: "logos/djcustomers/gucci.png",
+    imageFileName: "logos/mercedes.png",
     href: "#!"
   },
   {
-    imageFileName: "logos/djcustomers/mercedes.png",
+    imageFileName: "logos/gucci.png",
     href: "#!"
   },
   {
-    imageFileName: "logos/djcustomers/sdj-black-logo.png",
+    imageFileName: "logos/sdj-black-logo.png",
     href: "#!"
   },
   {
-    imageFileName: "logos/djcustomers/westfield.png",
+    imageFileName: "logos/westfield.png",
     href: "#!"
   },
-  # {
-  #   imageFileName: "logos/djcustomers/rpeyc.png",
-  #   href: "#!"
-  #    },
+  
+  {
+    imageFileName: "logos/djcustomers/rpeyc.png",
+    href: "#!"
+     },
 ]
 ---
