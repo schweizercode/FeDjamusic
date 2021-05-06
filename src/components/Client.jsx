@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+// import Carousel from 'bootstrap';
 
 import Image from "components/Image";
 
@@ -10,9 +11,11 @@ const Client = ({ imageFileName, href }) => {
 
   if (href) {
     return (
+      // <Carousel>
       <a href={href} target="_blank" rel="noopener noreferrer">
         {imgPart}
-      </a>
+        </a>
+    //  </Carousel>
     );
   }
 
