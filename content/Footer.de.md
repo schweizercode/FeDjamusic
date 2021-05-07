@@ -1,12 +1,12 @@
 ---
-copyright: "Copyright © Start Bootstrap 2020"
+copyright: "Copyright © FeDJaMusic"
 social: {
   twitter: "#",
   facebook: "#",
   medium: "#"
 }
-privacyText: "プライバシー"
+privacyText: "Datenschutz-Bestimmungen"
 privacyHref: "#!"
-termsText: "利用規約"
+termsText: "Nutzungsbedingungen"
 termsHref: "#!"
 ---

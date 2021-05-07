@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes, { elementType } from "prop-types";
-
 import { Row, Col } from "react-bootstrap";
 import TimelineItem from "components/TimelineItem";
 import SectionHeader from "components/SectionHeader";
@@ -15,7 +14,7 @@ const About = ({ className, frontmatter }) => {
     return null;
   }
 
-  const { anchor, header: rootHeader, subheader: rootSubHeader, teamMember } = frontmatter;
+  const { anchor, header: rootHeader, subheader: rootSubHeader, teamMember, content } = frontmatter;
 
   return (
     <PageSection
@@ -30,7 +29,7 @@ const About = ({ className, frontmatter }) => {
 
       <Row>
         
-        <Col lg={4}>
+       
           {teamMember.map((element => 
     
             <TeamMember
@@ -38,10 +37,12 @@ const About = ({ className, frontmatter }) => {
               imageFileName={element.imageFileName}
               imageAlt={element.imageAlt}
               header={element.header}
-              subheader={element.subheader} />
+              subheader={element.subheader}
+              content={element.content}/>
           ))}
-
-        </Col>
+       
+  
+        
       </Row>
     </PageSection>
   );

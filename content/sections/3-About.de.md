@@ -8,6 +8,7 @@ teamMember: [
     imageFileName: "team/1.jpg",
     header: "Kay Garland",
     subheader: "DJ & Music Producer",
+    contet: "Hey how are ya?",
     social: {
       twitter: "#",
       facebook: "#",

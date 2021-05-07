@@ -27,16 +27,12 @@ const Team = ({ className, frontmatter }) => {
       </Row>
       <Row>
         {teamMember.map(({ header, ...tmProps }) => (
-          <Col sm={4} key={header}>
-            <TeamMember header={header} {...tmProps} />
-          </Col>
+        
+          <TeamMember header={header} {...tmProps} key={header} />
+        
         ))}
       </Row>
-      <Row>
-        <Col lg={4} className="mx-auto text-center">
-          <p className="large text-muted">{rootContent}</p>
-        </Col>
-      </Row>
+
     </PageSection>
   );
 };

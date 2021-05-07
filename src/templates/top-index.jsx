@@ -74,9 +74,11 @@ export const query = graphql`
             twitter
           }
           subheader
+          content
           teamMember {
             header
             imageFileName
+            content
             social {
               facebook
               github

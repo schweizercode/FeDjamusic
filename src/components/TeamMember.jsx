@@ -3,28 +3,36 @@ import PropTypes from "prop-types";
 import Image from "components/Image";
 import * as SocialIcons from "components/SocialIcons";
 import "./TeamMember.scss";
+import { Col } from "react-bootstrap";
 
 const TeamMember = ({
   imageFileName,
   imageAlt,
   header,
   subheader,
+  content,
   social: { twitter, facebook, linkedin, github, medium },
 }) => {
 
-  console.log(imageFileName)
+  console.log(content)
 
   return (
-    <div className="team-member">
-      <Image
+    <>
+      <Col xs={6}>
+        <Image
         className="mx-auto circle rounded-circle"
         fileName={imageFileName}
         alt={imageAlt || header || subheader}
       />
       <h4>{header}</h4>
-      <p className="text-muted">{subheader}</p>
-      
-    </div>
+        <p className="text-muted">{subheader}</p>
+      </Col>
+
+      <Col xs={6}>
+      <p className="text-muted">{content}</p>
+      </Col>
+    </>
+  
   );
 };
 
@@ -33,6 +41,7 @@ TeamMember.propTypes = {
   imageAlt: PropTypes.string,
   header: PropTypes.string,
   subheader: PropTypes.string,
+  content: PropTypes.string,
   social: PropTypes.shape({
     twitter: PropTypes.string,
     facebook: PropTypes.string,
@@ -46,6 +55,7 @@ TeamMember.defaultProps = {
   imageAlt: null,
   header: "",
   subheader: "",
+  content: "",
   social: {
     twitter: null,
     facebook: null,
