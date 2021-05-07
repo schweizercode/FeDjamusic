@@ -14,11 +14,9 @@ const TeamMember = ({
   social: { twitter, facebook, linkedin, github, medium },
 }) => {
 
-  console.log(content)
-
   return (
     <>
-      <Col xs={6}>
+      <Col xs={4}>
         <Image
         className="mx-auto circle rounded-circle"
         fileName={imageFileName}
