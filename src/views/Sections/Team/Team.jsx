@@ -20,11 +20,15 @@ const Team = ({ className, frontmatter }) => {
     teamMember,
   } = frontmatter;
 
+
   return (
+
     <PageSection className={className} id={anchor}>
+      
       <Row>
         <SectionHeader header={rootHeader} subheader={rootSubHeader} />
       </Row>
+
       <Row>
         {teamMember.map(({ header, ...tmProps }) => (
         

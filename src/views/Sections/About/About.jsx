@@ -28,7 +28,6 @@ const About = ({ className, frontmatter }) => {
       </Row>
 
       <Row>
-        
        
           {teamMember.map((element => 
     
