@@ -1,20 +1,26 @@
 // Styling for the team section
 .team-member {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
-  .circle {
-    width: 225px;
-    height: 225px;
-    border: 7px solid fade-out($black, 0.9);
-  }
-  h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-    text-align: center;
-  }
-  p {
-    margin-top: 0;
-    text-align: center;
-  }
+}
+
+h4 {
+   margin-top: 25px;
+   margin-bottom: 0;
+   text-transform: none;
+   text-align: center;
+   font-weight: 500;
+ }
+
+p {
+   margin-top: 0;
+   text-align: center;
+  //  background-color: #ff9f5f;
+   
+ }
+
+.circle {
+  width: 225px;
+  height: 225px;
+  border: 7px solid fade-out($black, 0.9);
 }

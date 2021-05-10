@@ -26,7 +26,7 @@ const TeamMember = ({
         <p className="text-muted">{subheader}</p>
       </Col>
 
-      <Col xs={6}>
+      <Col xs={8}>
       <p className="text-muted">{content}</p>
       </Col>
     </>

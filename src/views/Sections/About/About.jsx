@@ -29,8 +29,8 @@ const About = ({ className, frontmatter }) => {
 
       <Row>
        
-          {teamMember.map((element => 
-    
+        {teamMember.map((element =>
+            
             <TeamMember
               key={element.header}
               imageFileName={element.imageFileName}
@@ -40,7 +40,6 @@ const About = ({ className, frontmatter }) => {
               content={element.content}/>
           ))}
        
-  
         
       </Row>
     </PageSection>

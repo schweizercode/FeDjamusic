@@ -11,11 +11,9 @@ const Client = ({ imageFileName, href }) => {
 
   if (href) {
     return (
-      // <Carousel>
       <a href={href} target="_blank" rel="noopener noreferrer">
         {imgPart}
         </a>
-    //  </Carousel>
     );
   }
 
