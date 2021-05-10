@@ -7,15 +7,17 @@
  
   .portfolio-caption {
     width: 400px;
+    height: 70px;
     margin: 0 auto;
     // margin-top: 3px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
-    background-color: #e4cdbe;
+    background-color: #ff9f5f;
     h4 {
-      margin: 0;
+      justify-content: center;
+      margin-top: 5px;
       text-transform: none;
-      color: white;
+      color: $gray-200;
     }
     p {
       font-size: 16px;
