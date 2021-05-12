@@ -1,20 +1,20 @@
 ---
 anchor: "Services"
 header: "DJ Services"
-subheader: "Lorem ipsum dolor sit amet consectetur."
+subheader: "How can I serve you?"
 services: [
   {
     iconName: "ShoppingCartIcon",
     header: "Weddings & Parties",
     content: "It's your PARTY! I will make YOU the KING of your PARTY!
-    Don't let the DJ ruin it. Through hosting endless Weddings & Parties FeDJa knows how to bring up the energy of any crowd and unite a room with an infectious mix of music tailored to your Party!"
+    Don't let the DJ ruin it. Through hosting endless Weddings & Parties FeDJa knows exactly how to bring up the energy of any crowd and unite a room with an infectious mix of music tailored to YOUR Party!"
   },
   {
     iconName: "LaptopIcon",
     header: "Cooperate Events",
     content: "You only had ONE JOB! Don't screw it up..
     Your company is only as good as their Dancemoves.
-    Over the Years FeDJa developed incredible skills to serve the Cooperate Community through varieties of Musical Genres, even Nerds find the courage to step unto the dancefloor"
+    Over the Years FeDJa developed incredible skills to serve the Cooperate Community through varieties of Musical Genres. Even Nerds will find the courage to step unto the dancefloor"
   },
   {
     iconName: "LockIcon",
