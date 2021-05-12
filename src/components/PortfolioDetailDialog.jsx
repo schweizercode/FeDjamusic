@@ -35,15 +35,9 @@ const PortfolioDetailDialog = ({
           frameBorder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /> 
         <p>{content}</p>
         {extraInfo}
+        
       </Modal.Body>
-      <Modal.Footer>
-        <div className="mx-auto">
-          {/* <Button variant="primary" onClick={onHide}>
-            <Icon iconName="CloseIcon" />
-            &nbsp; Close Project
-          </Button> */}
-        </div>
-      </Modal.Footer>
+
     </Modal>
   );
 };

@@ -9,7 +9,7 @@ DJ and producer making sure no speakers are left untapped and no music is left u
 
 teamMember: [
   {
-    imageFileName: "djpic.jpg",
+    imageFileName: "boatdj.jpg",
     header: "FeDJa",
     subheader: "DJ & Music Producer",
     content: "Raising the bar for professionalism and service, Sydney Schweezzy knows how to bring up the energy of any crowd and unite a room with his infectious mix of music tailored to any event.

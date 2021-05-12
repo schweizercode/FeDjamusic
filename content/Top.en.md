@@ -1,7 +1,7 @@
 ---
 header: "Nice To Meet You"
 # subheader: "Hey I'm schweezzy!"
-imageFileName: "focus.jpg"
+imageFileName: "WebHead.jpeg"
 jumpToAnchor: "Services"
 jumpToAnchorText: "Tell Me More"
 ---

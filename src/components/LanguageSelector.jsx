@@ -1,14 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
-
 import { Link } from "gatsby";
 import { NavDropdown } from "react-bootstrap";
-
 import IconText from "components/IconText";
 import getBaseUrl from "utils/getBaseUrl";
-
 import "./LanguageSelector.scss";
+
 
 const LanguageSelector = ({ defaultLang, langKey, langTextMap }) => {
   return (

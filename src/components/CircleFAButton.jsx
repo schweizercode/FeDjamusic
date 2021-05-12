@@ -1,9 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-
 import Icon from "./Icon";
-
 import "./CircleFAButton.scss";
+
 
 const CircleFAButton = ({ iconName, ...restProps }) => {
   return (

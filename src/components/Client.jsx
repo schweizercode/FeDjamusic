@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import Carousel from 'bootstrap';
-
 import Image from "components/Image";
+
 
 const Client = ({ imageFileName, href }) => {
   const imgPart = (

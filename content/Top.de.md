@@ -1,7 +1,7 @@
 ---
 header: "Willkommen!"
 # subheader: "Welcome To Our Studio!"
-imageFileName: "focus.jpg"
+imageFileName: "WebHead.jpeg"
 jumpToAnchor: "Services"
 jumpToAnchorText: "Erfahre mehr"
 ---
