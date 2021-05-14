@@ -15,13 +15,13 @@ clients: [
     href: "#!"
   },
   {
-    imageFileName: "logos/westfield.png",
+    imageFileName: "logos/WF.png",
     href: "#!"
   },
   
-  {
-    imageFileName: "logos/djcustomers/rpeyc.png",
-    href: "#!"
-     },
+  # {
+  #   imageFileName: "logos/djcustomers/rpeyc.png",
+  #   href: "#!"
+  #    },
 ]
 ---
