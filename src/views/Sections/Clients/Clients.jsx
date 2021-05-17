@@ -18,6 +18,7 @@ const Clients = ({ className, frontmatter }) => {
   return (
     <PageSection className={clsx("py-5", className)} id={anchor}>
       <Row>
+        <Carousel>
         {clients.map(({ href, imageFileName }) => (
           
           <Col md={3} sm={4} className="my-3" key={imageFileName}>
@@ -25,6 +26,7 @@ const Clients = ({ className, frontmatter }) => {
             </Col>
             
         ))}
+          </Carousel>
       </Row>
     </PageSection>
   );
