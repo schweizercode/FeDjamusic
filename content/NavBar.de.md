@@ -1,4 +1,4 @@
 ---
 brand: "FeDJa"
-menuText: "Menu "
+menuText: "Menü "
 ---
