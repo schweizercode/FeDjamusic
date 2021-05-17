@@ -1,7 +1,7 @@
 ---
 copyright: "Copyright © FeDJaMusic"
 social: {
-  twitter: "#",
+  instagram: "#",
   facebook: "#",
   medium: "#"
 }
