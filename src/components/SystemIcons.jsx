@@ -14,6 +14,7 @@ import {
   faLinkedinIn,
   faGithubAlt,
   faMediumM,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 
@@ -27,6 +28,7 @@ export const CloseIcon = makeFAIcon(faTimes);
 export const LanguageIcon = makeFAIcon(faGlobe);
 
 export const TwitterIcon = makeFAIcon(faTwitter);
+export const InstagramIcon = makeFAIcon(faInstagram);
 export const FacebookIcon = makeFAIcon(faFacebookF);
 export const LinkedinIcon = makeFAIcon(faLinkedinIn);
 

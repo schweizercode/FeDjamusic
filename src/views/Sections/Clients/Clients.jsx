@@ -16,19 +16,21 @@ const Clients = ({ className, frontmatter }) => {
   const { anchor, clients } = frontmatter;
 
   return (
-    <PageSection className={clsx("py-5", className)} id={anchor}>
-      <Row>
-        <Carousel>
-        {clients.map(({ href, imageFileName }) => (
-          
-          <Col md={3} sm={4} className="my-3" key={imageFileName}>
-            <Client href={href} imageFileName={imageFileName} />
-            </Col>
-            
+                   
+    <PageSection className={className}>
+
+          <Carousel>
+          {clients.map(({ href, imageFileName }) => (
+
+            <Carousel.Item key={imageFileName}>
+              <Client href={href} imageFileName={imageFileName} />
+              </Carousel.Item>
         ))}
-          </Carousel>
-      </Row>
+
+        </Carousel>
+       
     </PageSection>
+
   );
 };
 

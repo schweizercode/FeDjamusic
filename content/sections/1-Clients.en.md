@@ -1,22 +1,23 @@
 ---
 anchor: "Clients"
 header: "Clients"
+
 clients: [
   {
     imageFileName: "logos/mercedes.png",
-    href: "#!"
+    href: "https://www.mercedes-benz.com"
   },
   {
     imageFileName: "logos/gucci.png",
-    href: "#!"
+    href: "https://www.gucci.com"
   },
   {
     imageFileName: "logos/sdj-black-logo.png",
-    href: "#!"
+    href: "https://www.stardjhire.com.au/"
   },
   {
     imageFileName: "logos/WF.png",
-    href: "#!"
+    href: "https://www.westfield.com/"
   },
   
   # {

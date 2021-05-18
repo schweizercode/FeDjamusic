@@ -1,7 +1,7 @@
 ---
 copyright: "Copyright © FeDJaMusic"
 social: {
-  instagram: "#",
+  instagram: "schweezyy",
   facebook: "#",
   medium: "#"
 }

@@ -1,5 +1,5 @@
 ---
-header: "Nice To Meet You"
+header: "Never Kill the DJ"
 # subheader: "Hey I'm schweezzy!"
 imageFileName: "WebHead.jpeg"
 jumpToAnchor: "Services"

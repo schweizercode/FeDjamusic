@@ -58,6 +58,11 @@ export const query = graphql`
             imageFileNameDetail
             videoUrl
           }
+          reviews{
+            content
+            author
+            source
+          }
           privacyHref
           privacyText
           services {
@@ -71,7 +76,7 @@ export const query = graphql`
             github
             linkedin
             medium
-            twitter
+            instagram
           }
           subheader
           content

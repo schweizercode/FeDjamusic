@@ -5,7 +5,7 @@ import Image from "components/Image";
 
 const Client = ({ imageFileName, href }) => {
   const imgPart = (
-    <Image className="img-fluid d-block mx-auto" fileName={imageFileName} alt={imageFileName} />
+    <Image  fileName={imageFileName} alt={imageFileName}  />
   );
 
   if (href) {
