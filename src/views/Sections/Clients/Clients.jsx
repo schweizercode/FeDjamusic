@@ -3,9 +3,11 @@ import PropTypes from "prop-types";
 import clsx from "clsx";
 
 import { Row, Col } from "react-bootstrap";
-import PageSection from "components/PageSection";
+// import PageSection from "components/PageSection";
 import Client from "components/Client";
 import Carousel from 'react-bootstrap/Carousel';
+
+import "./Clients.scss"
 
 
 const Clients = ({ className, frontmatter }) => {
@@ -17,7 +19,10 @@ const Clients = ({ className, frontmatter }) => {
 
   return (
                    
-    <PageSection className={className}>
+    <div className="clients">
+      <div>
+        <p className="trusted">Trusted by</p>
+      </div>
 
           <Carousel>
           {clients.map(({ href, imageFileName }) => (
@@ -29,7 +34,7 @@ const Clients = ({ className, frontmatter }) => {
 
         </Carousel>
        
-    </PageSection>
+    </div> 
 
   );
 };

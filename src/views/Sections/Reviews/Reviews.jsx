@@ -6,8 +6,10 @@ import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
 import nl2br from "utils/nl2br";
 import TeamMember from 'components/TeamMember';
-import "./Reviews.scss";
+
 import Carousel from 'react-bootstrap/Carousel'
+
+import "./Reviews.scss";
 
 const Reviews = ({ className, frontmatter }) => {
   if (!frontmatter) {

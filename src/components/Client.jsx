@@ -5,7 +5,7 @@ import Image from "components/Image";
 
 const Client = ({ imageFileName, href }) => {
   const imgPart = (
-    <Image  fileName={imageFileName} alt={imageFileName}  />
+    <Image  fileName={imageFileName} alt={imageFileName} />
   );
 
   if (href) {
