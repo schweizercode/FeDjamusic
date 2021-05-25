@@ -1,7 +1,7 @@
 ---
 anchor: "Reviews"
 header: "Reviews"
-subheader: "Wer ist Fedja?"
+subheader: "What do cutsomers say?"
 content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。"
 reviews: [
   {

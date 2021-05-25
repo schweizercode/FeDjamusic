@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 // import PageSection from "components/PageSection";
 import Client from "components/Client";
 import Carousel from 'react-bootstrap/Carousel';
@@ -18,24 +18,21 @@ const Clients = ({ className, frontmatter }) => {
   const { anchor, clients } = frontmatter;
 
   return (
-                   
-    <div className="clients">
-      <div>
-        <p className="trusted">Trusted by</p>
-      </div>
 
-          <Carousel>
+  <Container className="clients">
+    <div >
+        <p className="trusted">Trusted by</p>
+    </div>
+
           {clients.map(({ href, imageFileName }) => (
 
-            <Carousel.Item key={imageFileName}>
-              <Client href={href} imageFileName={imageFileName} />
-              </Carousel.Item>
+            <div key={imageFileName}>
+              <Col className="companies" href={href} imageFileName={imageFileName} />
+              </div>
         ))}
 
-        </Carousel>
-       
-    </div> 
-
+    </Container>
+    
   );
 };
 
