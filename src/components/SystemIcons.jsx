@@ -1,4 +1,9 @@
 import makeFAIcon from "utils/makeFAIcon";
+import {
+  clubsFestivals,
+  Cooperate,
+  party,
+} from '../components.';
 
 import {
   faPhone,
@@ -16,6 +21,12 @@ import {
   faMediumM,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+
+// import {
+//   clubsFestivals,
+//   Cooperate,
+//   party
+// } from './'
 
 
 export const PhoneIcon = makeFAIcon(faPhone);
