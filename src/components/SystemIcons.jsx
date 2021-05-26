@@ -1,9 +1,9 @@
 import makeFAIcon from "utils/makeFAIcon";
-import {
-  clubsFestivals,
-  Cooperate,
-  party,
-} from '../components.';
+// import {
+//   clubsFestivals,
+//   Cooperate,
+//   party,
+// } from '../components.';
 
 import {
   faPhone,

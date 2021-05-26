@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Image from "components/Image";
-import * as SocialIcons from "components/SocialIcons";
 import "./TeamMember.scss";
 import { Col } from "react-bootstrap";
 
@@ -11,7 +10,6 @@ const TeamMember = ({
   header,
   subheader,
   content,
-  social: { twitter, facebook, linkedin, github, medium },
 }) => {
 
   return (
@@ -40,13 +38,6 @@ TeamMember.propTypes = {
   header: PropTypes.string,
   subheader: PropTypes.string,
   content: PropTypes.string,
-  social: PropTypes.shape({
-    twitter: PropTypes.string,
-    facebook: PropTypes.string,
-    linkedin: PropTypes.string,
-    github: PropTypes.string,
-    medium: PropTypes.string,
-  }),
 };
 
 TeamMember.defaultProps = {
@@ -54,13 +45,6 @@ TeamMember.defaultProps = {
   header: "",
   subheader: "",
   content: "",
-  social: {
-    twitter: null,
-    facebook: null,
-    linkedin: null,
-    github: null,
-    medium: null,
-  },
 };
 
 export default TeamMember;

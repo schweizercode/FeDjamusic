@@ -17,20 +17,23 @@ const Clients = ({ className, frontmatter }) => {
 
   const { anchor, clients } = frontmatter;
 
+  console.log(clients)
+  
   return (
 
   <Container className="clients">
     <div >
         <p className="trusted">Trusted by</p>
     </div>
-
+    <Row className="clientsrow">
           {clients.map(({ href, imageFileName }) => (
 
-            <div key={imageFileName}>
-              <Col className="companies" href={href} imageFileName={imageFileName} />
-              </div>
+            <Col  key={imageFileName}>
+              <Client className="companies" href={href} imageFileName={imageFileName} />
+              </Col>
         ))}
-
+      </Row>
+      
     </Container>
     
   );

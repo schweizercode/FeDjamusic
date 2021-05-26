@@ -10,7 +10,7 @@ const Client = ({ imageFileName, href }) => {
 
   if (href) {
     return (
-      <a href={href} target="_blank" rel="noopener noreferrer">
+      <a className="anchor" href={href} target="_blank" rel="noopener noreferrer">
         {imgPart}
         </a>
     );
