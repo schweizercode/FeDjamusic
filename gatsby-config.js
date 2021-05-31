@@ -47,6 +47,7 @@ module.exports = {
         background_color: "#ffffff",
         theme_color: "#fed136",
         display: "minimal-ui",
+        icon: "content/assets/icons/party.png",
       },
     },
     "gatsby-transformer-remark",
