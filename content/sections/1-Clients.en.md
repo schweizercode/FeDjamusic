@@ -19,10 +19,10 @@ clients: [
     imageFileName: "logos/WF.png",
     href: "https://www.westfield.com/"
   },
-  {
-    imageFileName: "logos/myer.png",
-    href: "https://www.myer.com.au/"
-  },
+  # {
+  #   imageFileName: "logos/myer.png",
+  #   href: "https://www.myer.com.au/"
+  # },
   
   # {
   #   imageFileName: "logos/djcustomers/rpeyc.png",
