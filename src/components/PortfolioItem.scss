@@ -1,12 +1,13 @@
 .portfolio-item {
 
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
  
   .portfolio-caption {
-    width: 400px;
+    width: 100%;
     height: 70px;
     margin: 0 auto;
     // margin-top: 3px;
