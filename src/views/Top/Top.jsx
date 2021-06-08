@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { Button } from "react-bootstrap";
 import useSmoothScrollTo from "hooks/useSmoothScrollTo";
 import ImageCard from "components/ImageCard";
+// import faChevronDown from "@fortawesome/free-solid-svg-icons";
 
 const Top = ({ frontmatter }) => {
   if (!frontmatter) {
@@ -20,6 +21,7 @@ const Top = ({ frontmatter }) => {
       <Button size="xl" variant="primary" className="text-uppercase" onClick={scrollToSection}>
         {jumpToAnchorText}
       </Button>
+
     );
   }
 

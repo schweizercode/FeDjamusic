@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Row, Col } from "react-bootstrap";
+import { Row, Col} from "react-bootstrap";
+
 
 import ServiceItem from "components/ServiceItem";
 import SectionHeader from "components/SectionHeader";
@@ -23,6 +24,7 @@ const Services = ({ className, frontmatter }) => {
         {services.map((service) => (
           <Col md={4} key={service.header}>
             <ServiceItem {...service} />
+            
           </Col>
         ))}
       </Row>
