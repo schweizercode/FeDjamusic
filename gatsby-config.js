@@ -47,7 +47,7 @@ module.exports = {
         background_color: "#ffffff",
         theme_color: "#fed136",
         display: "minimal-ui",
-        icon: `${__dirname}/content/assets/images/icons/party.png`,
+        icon: `${__dirname}/content/assets/images/logos/sdj.png`,
       },
     },
     "gatsby-transformer-remark",
