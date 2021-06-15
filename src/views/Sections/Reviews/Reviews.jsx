@@ -30,7 +30,6 @@ console.log(reviews)
       </Row>
 
       <Row>
-       
               
               <Carousel>
                   {reviews.map(review => {
