@@ -23,11 +23,26 @@ clients: [
     imageFileName: "logos/LV.png",
     href: "https://www.louisvuitton.com/"
   },
-    
-  # {
-  #   imageFileName: "logos/Cola.svg",
-  #   href: "https://www.coca-colacompany.com/"
-  # },
+
+  {
+    imageFileName: "logos/cola.png",
+    href: "https://www.coca-colacompany.com/"
+  },
+
+  {
+    imageFileName: "logos/myer.png",
+    href: "https://www.myer.com.au/"
+  },
+
+  {
+    imageFileName: "logos/hyatt.png",
+    href: "https://www.hyatt.com/"
+  },
+
+   {
+    imageFileName: "logos/sofitel.png",
+    href: "https://www.sofitelsydneydarlingharbour.com.au/"
+  },
 ]
 
 ---

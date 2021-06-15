@@ -1,7 +1,7 @@
 ---
 anchor: "Gigs"
 header: "Gigs"
-subheader: "Check out some live Performaces :)"
+subheader: "Schau dir gerne Live Gigs an"
 gigs: [
   {
     videoUrl: "540607020",
