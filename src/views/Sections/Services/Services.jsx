@@ -1,19 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Row, Col} from "react-bootstrap";
-
+import { Row, Col, Button} from "react-bootstrap";
 
 import ServiceItem from "components/ServiceItem";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
+
+import "./Services.scss";
 
 const Services = ({ className, frontmatter }) => {
   if (!frontmatter) {
     return null;
   }
 
-  const { anchor, header: rootHeader, subheader: rootSubHeader, services } = frontmatter;
+  const { anchor, header: rootHeader, subheader: rootSubHeader, services, button } = frontmatter;
 
   return (
     <PageSection className={className} id={anchor}>
@@ -24,6 +25,7 @@ const Services = ({ className, frontmatter }) => {
         {services.map((service) => (
           <Col md={4} key={service.header}>
             <ServiceItem {...service} />
+            <Button className={button}>Enquire now</Button>
             
           </Col>
         ))}

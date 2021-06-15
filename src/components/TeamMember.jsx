@@ -25,7 +25,7 @@ const TeamMember = ({
       </Col>
 
       <Col xs={8}>
-      <p className="text-muted">{content}</p>
+      <p  className="text-muted">{content}</p>
       </Col>
     </>
   

@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
-
 import { Container, Card } from "react-bootstrap";
 import Image from "components/Image";
 import "./ImageCard.scss";
+
 
 const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extraInfo }) => {
   return (

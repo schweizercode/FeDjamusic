@@ -1,9 +1,5 @@
 import makeFAIcon from "utils/makeFAIcon";
-// import {
-//   clubsFestivals,
-//   Cooperate,
-//   party,
-// } from '../components.';
+
 
 import {
   faPhone,
@@ -13,6 +9,8 @@ import {
   faTimes,
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
+
+
 import {
   faTwitter,
   faFacebookF,
@@ -22,11 +20,6 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-// import {
-//   clubsFestivals,
-//   Cooperate,
-//   party
-// } from './'
 
 
 export const PhoneIcon = makeFAIcon(faPhone);
