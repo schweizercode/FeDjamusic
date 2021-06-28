@@ -1,12 +1,9 @@
 import React from "react";
 import PropTypes, { elementType } from "prop-types";
 import { Row, Col } from "react-bootstrap";
-import TimelineItem from "components/TimelineItem";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
-import nl2br from "utils/nl2br";
 import TeamMember from 'components/TeamMember';
-
 import "./About.scss";
 
 const About = ({ className, frontmatter }) => {

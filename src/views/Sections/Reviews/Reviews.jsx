@@ -1,24 +1,25 @@
 import React from "react";
-import PropTypes, { elementType } from "prop-types";
-import { Row, Col, CarouselItem } from "react-bootstrap";
-import TimelineItem from "components/TimelineItem";
-import SectionHeader from "components/SectionHeader";
-import PageSection from "components/PageSection";
-import nl2br from "utils/nl2br";
-import TeamMember from 'components/TeamMember';
+import PropTypes, { element, elementType } from "prop-types";
 
+import { Row, CarouselItem } from "react-bootstrap";
 import Carousel from 'react-bootstrap/Carousel'
 
+import Image from "components/Image";
+import SectionHeader from "components/SectionHeader";
+import PageSection from "components/PageSection";
 import "./Reviews.scss";
+
 
 const Reviews = ({ className, frontmatter }) => {
   if (!frontmatter) {
     return null;
   }
 
-  const { anchor, header: rootHeader, subheader: rootSubHeader, reviews, content } = frontmatter;
-console.log(reviews)
+  const { anchor, header: rootHeader, subheader: rootSubHeader, reviews } = frontmatter;
+
+  
   return (
+
     <PageSection
       className={className}
       id={anchor}>
@@ -29,24 +30,32 @@ console.log(reviews)
           subheader={rootSubHeader} />
       </Row>
 
-      <Row>
-              
-              <Carousel>
-                  {reviews.map(review => {
-                      return (<Carousel.Item key={review.content}>
-                          <h3>{review.author}</h3>
-                          <p> {review.content}</p>
-                          <p> {review.source}</p>
-                      </Carousel.Item>)
+        <Carousel className="carousel">
+
+        {reviews.map(review => {
+            
+        return (
+                      
+          <CarouselItem type="radio"
+            key={reviews.content}
+            imageFileName={reviews.image}
+            location={reviews.location}
+          >
+          
+            <Image>{reviews.image}</Image>
+         
+            <p> {review.content} </p>
+            <h4>{review.name}</h4>
+            <p>{review.location}</p>
+       
+          </CarouselItem>
+        )
+         
                   })
                   }
             
               </Carousel>
-              
- 
-       
-        
-      </Row>
+
     </PageSection>
   );
 };
